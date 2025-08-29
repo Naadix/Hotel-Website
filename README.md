@@ -1,12 +1,51 @@
-# React + Vite
+# 🏨 Hotel Hunt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hotel Hunt** is a hotel browsing and booking website built with **React** and **Tailwind CSS**.  
+The goal of this project is to provide a modern, responsive, and user-friendly interface for exploring hotels and their details.
+This is **my first project using React**, where I applied what I have learned in modern web development, including component-based architecture, responsive design, and deployment with Netlify.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+![Screenshot](src/assets/hero_section.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+🔗 [View Website](https://hotelhunt.netlify.app/)
+
+---
+
+## ✨ Features
+- Fully responsive design for all devices.
+- Modern UI styled with **Tailwind CSS**.
+- Hotel cards with images, rating, and location.
+- Clean and organized homepage sections.
+- Deployed with **Netlify**.
+
+---
+
+## 🛠️ Tech Stack
+- [React](https://react.dev/) ⚛️
+- [Vite](https://vitejs.dev/) ⚡
+- [Tailwind CSS](https://tailwindcss.com/) 🎨
+- [Netlify](https://www.netlify.com/) ☁️
+
+---
+
+
+## ⚡ Installation & Setup
+Run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Naadix/Hotel-Website.git
+
+# Navigate into the project folder
+cd clientbooking
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
