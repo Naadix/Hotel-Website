@@ -7,7 +7,6 @@ import { FaSearch } from 'react-icons/fa';
 import { useClerk, useUser, UserButton } from '@clerk/clerk-react';
 import { FaBook } from "react-icons/fa";
 
-
 const Navbar = () => {
 
     const navLinks = [
@@ -46,7 +45,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className='flex-shrink mt-5'>
                     <Link to='/' >
-                        <img src="src\assets\logo.png" alt="logo" className={`h-36 w-36 object-contain  ${isScrolled && " invert-0 opacity-90"} ${!isHero && "invert"} `} />
+                        <img src="/logo.png" alt="logo" className={`h-36 w-36 object-contain  ${isScrolled && " invert-0 opacity-90"} ${!isHero && "invert"} `} />
                     </Link>
                 </div>
 
@@ -80,7 +79,7 @@ const Navbar = () => {
                             </UserButton.MenuItems>
                         </UserButton>
                     ) : (
-                        <button onClick={openSignIn} className={` relative px-6 overflow-hidden py-2 rounded-full border text-white  font-semibold border-[#e69138]  hover:text-white transition-all duration-500 ${isScrolled ? "text-[#084276]" : " text-black"}
+                        <button onClick={openSignIn} className={` relative px-6 overflow-hidden py-2 rounded-full border text-white  font-semibold border-[#e69138]  hover:text-white transition-all duration-500 ${isScrolled ? "bg-[#e69138] hover:bg-[#e77e0f]" : "bg-transparent"}
                     after:absolute after:-z-10 after:content-[''] after:left-0 after:top-0 after:w-0 after:h-full after:rounded-full after:bg-[#e69138] hover:after:w-full after:transition-all after:duration-300`}>
                             Login
                         </button>

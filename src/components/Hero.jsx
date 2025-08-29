@@ -1,4 +1,5 @@
 import React from 'react'
+import hotel_3 from '../assets/hotel_3.jpg'
 
 const Hero = () => {
     const cities = [
@@ -9,7 +10,7 @@ const Hero = () => {
         'Tokyo'
     ]
     return (
-        <div className=" h-screen bg-[url('src/assets/hotel_3.jpg')] bg-center bg-cover bg-no-repeat flex flex-col justify-center items-center ">
+        <div style={{ backgroundImage: `url(${hotel_3})` }} className=" h-screen bg-center bg-cover bg-no-repeat flex flex-col justify-center items-center ">
             <div className='absolute inset-0 bg-black opacity-60'></div>
 
                 <div className=' relative h-[70vh] md:mt-6 z-10 grid md:grid-cols-2 place-items-center gap-5 px-3 '>  

@@ -1,8 +1,8 @@
 import { createContext } from 'react'
-import allrooms_1 from '/src/assets/allrooms_1.jpg'
-import allrooms_2 from '/src/assets/allrooms_2.jpg'
-import allrooms_3 from '/src/assets/allrooms_3.jpg'
-import allrooms_4 from '/src/assets/allrooms_4.jpg'
+import allrooms_1 from '../assets/allrooms_1.jpg'
+import allrooms_2 from '../assets/allrooms_2.jpg'
+import allrooms_3 from '../assets/allrooms_3.jpg'
+import allrooms_4 from '../assets/allrooms_4.jpg'
 
 export const HotelContext = createContext()
 

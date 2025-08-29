@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import uploadArea from '/src/assets/uploadArea.png'
+import uploadArea from '../../assets/uploadArea.png'
 const AddHotel = () => {
     const [image, setImage] = useState({
         1: null,

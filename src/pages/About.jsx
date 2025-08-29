@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImage from '/src/assets/AboutImage.jpeg'
+import AboutImage from '../assets/AboutImage.jpeg'
 const About = () => {
     return (
         <section className=' mt-32 mb-3 h-screen w-full px-8 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-5 items-start'>
@@ -14,7 +14,7 @@ const About = () => {
                 </div>
             </div>
              <div className='h-96 w-full overflow-hidden group rounded-md cursor-pointer'>
-                <img src="src\assets\AboutImage.jpeg" alt="About Image" className='rounded-md w-full h-full object-cover group-hover:scale-105 transition-all duration-500' />
+                <img src={AboutImage} alt="About Image" className='rounded-md w-full h-full object-cover group-hover:scale-105 transition-all duration-500' />
             </div>
 
         </section>

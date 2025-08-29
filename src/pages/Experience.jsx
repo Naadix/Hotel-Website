@@ -1,6 +1,5 @@
 import React from 'react'
-import ExperienceImage from '/src/assets/ExperienceImage.jpeg'
-
+import ExperienceImage from '../assets/ExperienceImage.jpeg'
 const Experience = () => {
     return (
         <section className=' mt-32 mb-5 h-full w-full px-8 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-5 '>
@@ -46,7 +45,7 @@ const Experience = () => {
                 </div>
             </div>
             <div className='h-96 w-full overflow-hidden group rounded-md cursor-pointer'>
-                <img src="src/assets/ExperienceImage.jpeg" alt="Experience Image" className='rounded-md w-full h-full object-cover group-hover:scale-105 transition-all duration-500' />
+                <img src={ExperienceImage} alt="Experience Image" className='rounded-md w-full h-full object-cover group-hover:scale-105 transition-all duration-500' />
             </div>
 
         </section>
