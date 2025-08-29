@@ -42,7 +42,7 @@ Run the project locally:
 git clone https://github.com/Naadix/Hotel-Website.git
 
 # Navigate into the project folder
-cd clientbooking
+cd Hotel-Website
 
 # Install dependencies
 npm install
